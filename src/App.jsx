@@ -20,7 +20,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "https://hopital-management-backend-2.onrender.com/api/v1/user/patient/me",
+          "https://hopital-management-backend-3.onrender.com/api/v1/user/patient/me",
 
           
           {
